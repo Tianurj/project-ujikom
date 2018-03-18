@@ -34,7 +34,7 @@
 
         <span class="product-single__price">
             <ins>
-            <span class="amount">Rp.{{$barang->harga}}</span>
+            <span class="amount">Rp.{{$barang->hargajual}}</span>
             </ins>
         </span>                      
 
@@ -94,7 +94,7 @@
 
         <span class="product__price">
             <ins>
-            <span class="amount">Rp.{{$data->harga}}</span>
+            <span class="amount">Rp.{{$data->hargajual}}</span>
             </ins>
         </span>
     </div> <!-- end product -->

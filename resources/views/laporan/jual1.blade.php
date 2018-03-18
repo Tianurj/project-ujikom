@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-9 col-md-offset-1">
             <div class="panel panel-default">
 
                 <div class="panel-body">
@@ -15,13 +15,7 @@
 			<div class="panel-heading">Laporan Data Penjualan
 			<div class="panel-title- pull-right"></div></div>
 			<div class="panel-body">
-			<button onclick="myFunction()">Print Laporan</button>
-
-			<script>
-			function myFunction() {
-    		window.print();
-			}
-			</script>
+			
 			<br>
 			<br
 			<label>Dari Tanggal</label>
@@ -29,6 +23,13 @@
 			<label>Sampai Tanggal</label>
 			<input type="date" name="">
 			<a href="laporan/penjualan" class="btn btn-info">Submit</a>
+			<button onclick="myFunction()">Print</button>
+
+			<script>
+			function myFunction() {
+    		window.print();
+			}
+			</script>
 
 			
 				<table class="table">

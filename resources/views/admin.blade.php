@@ -40,7 +40,7 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition skin-red sidebar-mini">
+<body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
   <header class="main-header">
@@ -67,7 +67,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="{{asset('admin/dist/img/profil.jpg')}}" class="user-image" alt="User Image">
-              <span class="hidden-xs">Admin</span>
+              <span class="hidden-xs">Admin Rangkas</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -75,7 +75,7 @@
                 <img src="{{asset('admin/dist/img/profil.jpg')}}" class="img-circle" alt="User Image">
 
                 <p>
-                 Admin
+                 Admin Rangkas
                 </p>
               </li>
               <!-- Menu Body -->
@@ -121,47 +121,48 @@
         <li class="header">MENU UTAMA</li>
         <li>
           <a href="/">
-            <i class="fa fa-th"></i> <span>Home</span>
+            <i class="glyphicon glyphicon-home"></i> <span>Home</span>
           </a>
         </li>
         <li>
           <a href="{{url('penitip')}}">
-            <i class="fa fa-table"></i> <span>Data Penitip</span>
+            <i class="glyphicon glyphicon-th-list"></i> <span>Data Penitip</span>
           </a>
         </li>
         <li>
           <a href="{{url('kategori')}}">
-            <i class="fa fa-table"></i> <span>Kategori</span>
+            <i class="glyphicon glyphicon-briefcase"></i> <span>Kategori</span>
           </a>
         </li>
         <li>
           <a href="{{url('barang')}}">
-            <i class="fa fa-table"></i> <span>Data Barang</span>
+            <i class="glyphicon glyphicon-barcode"></i> <span>Data Barang</span>
           </a>
         </li>
         <li>
           <a href="{{url('penjualan')}}">
-            <i class="fa fa-table"></i> <span>Penjualan</span>
+            <i class="glyphicon glyphicon-credit-card"></i> <span>Penjualan</span>
           </a>
         </li>
-         <li>
-          <a href="{{url('karyawan')}}">
-            <i class="fa fa-table"></i> <span>Data Karyawan</span>
+         
+        <li>
+          <a href="{{url('jual')}}">
+            <i class="glyphicon glyphicon-book"></i> <span>Laporan Penjualan</span>
           </a>
         </li>
         <li>
-          <a href="{{url('jual')}}">
-            <i class="fa fa-table"></i> <span>Laporan Penjualan</span>
+          <a href="{{url('karyawan')}}">
+            <i class="glyphicon glyphicon-user"></i> <span>Data Karyawan</span>
           </a>
         </li>
         <li>
           <a href="{{url('tentang/1/edit')}}">
-            <i class="fa fa-table"></i> <span>Ubah Tentang</span>
+            <i class="glyphicon glyphicon-exclamation-sign"></i> <span>Ubah Tentang</span>
           </a>
         </li>
         <li>
           <a href="{{url('kontak/1/edit')}}">
-            <i class="fa fa-table"></i> <span>Ubah Kontak</span>
+            <i class="glyphicon glyphicon-phone"></i> <span>Ubah Kontak</span>
           </a>
         </li>
       </ul>
@@ -175,7 +176,7 @@
     <section class="content-header">
       <h1>
         Dashboard
-        <small>Control panel</small>
+        <small>Kelola Data dengan Baik dan Benar</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -194,8 +195,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 2.4.0
     </div>
-    <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
-    reserved.
+    <strong>Copyright &copy; 2016-2018 <a href="https://adminlte.io">Tia Nurjanah</a>.</strong> RPL 3
   </footer>
 
   <!-- Control Sidebar -->

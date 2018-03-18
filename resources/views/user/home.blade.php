@@ -81,7 +81,7 @@
 
             <span class="product__price">
               <ins>
-                <span class="amount">Rp.{{$data->harga}}</span>
+                <span class="amount">Rp.{{$data->hargajual}}</span>
               </ins>
             </span>
           </div> <!-- end product -->
@@ -89,50 +89,7 @@
         </div> <!-- end row -->
       </div> <!-- end container -->
     </section> <!-- end best seller -->
-    <!-- Testimonials -->
-    <section class="section-wrap">
-      <div class="container">
-
-        <div class="heading-row mb-0">
-          <div class="text-center">
-            <h2 class="heading">
-              What the customers say?
-            </h2>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-
-            <div id="owl-testimonials" class="owl-carousel owl-theme owl-carousel--dark-arrows owl-carousel--visible-arrows">
-
-              <div class="testimonial">
-                <div class="testimonial__rating text-center">
-                  <span class="rating"></span>
-                  <span class="rating__time">20 days ago</span>
-                </div>
-                <p class="testimonial__text">I’am amazed, I should say thank you so much for your awesome template. Design is so good and neat, every detail has been taken care these team are realy amazing and talented!</p>
-                <span class="testimonial__author">Camille Ragpa</span>
-              </div>
-
-              <div class="testimonial">
-                <div class="testimonial__rating text-center">
-                  <span class="rating"></span>
-                  <span class="rating__time">20 days ago</span>
-                </div>
-                <p class="testimonial__text">I’am amazed, I should say thank you so much for your awesome template. Design is so good and neat, every detail has been taken care these team are realy amazing and talented!</p>
-                <span class="testimonial__author">Camille Ragpa</span>
-              </div>
-
-              <div class="testimonial">
-                <div class="testimonial__rating text-center">
-                  <span class="rating"></span>
-                  <span class="rating__time">20 days ago</span>
-                </div>
-                <p class="testimonial__text">I’am amazed, I should say thank you so much for your awesome template. Design is so good and neat, every detail has been taken care these team are realy amazing and talented!</p>
-                <span class="testimonial__author">Camille Ragpa</span>
-              </div>
-
+   
             </div> <!-- end carousel -->
           </div>
         </div> <!-- end carousel row -->

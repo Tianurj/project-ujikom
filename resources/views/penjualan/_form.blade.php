@@ -1,5 +1,5 @@
 <div class="form-group{{ $errors->has('tgl') ? 'has-error' : '' }}">
-    {!! Form::label('tgl', 'Tanggal Penjualan', ['class'=>'col-md-2 control-label']) !!}
+    {!! Form::label('tgl', 'Tanggal Penjualan', ['class'=>'col-md-1 control-label']) !!}
     <div class="col-md-12">
         {!! Form::date('tgl', null, ['class'=>'form-control','required','autofocus']) !!}
         {!! $errors->first('tgl_beli', '<p class="help-block">:message</p>') !!}
