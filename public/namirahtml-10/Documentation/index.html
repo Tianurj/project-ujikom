@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Documentation | Namira HTML</title>
+
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+  
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Poppins:400,600,700%7CRoboto:400,700' rel='stylesheet'>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/prism.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body data-spy="scroll" data-offset="60" data-target=".navbar" class="relative">
+
+  <!-- Preloader -->
+  <div class="loader-mask">
+    <div class="loader">Loading...</div>
+  </div>
+
+  <div class="main-wrapper">
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <ul class="local-scroll nav navbar-nav">
+        <li><a href="#getting-started">Getting Started</a></li>
+        <li><a href="#navigation">Basic Navigation</a></li>
+        <li><a href="#colors">Changing colors</a></li>
+        <li><a href="#credits">Credits</a></li>
+        <li><a href="#support">Support</a></li>
+      </ul>
+    </nav>
+
+    <!-- Menu Icon -->
+    <button class="menu-icon" id="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Menu Icon Close -->
+    <button class="menu-icon-close" id="menu-icon-close">
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Content -->
+    <div class="content-wrapper oh">
+
+      <header>
+        <h1>Namira HTML Documentation</h1>
+        <p>Thank you for purchasing our template. If you have any questions regarding our product feel free to visit our <a href="http://deothemes.com/support/forums" target="_blank">support forum</a></p>
+      </header>
+
+      <hr>
+
+      <h1 class="section-title" id="getting-started">Getting Started</h1>
+      <p>Unzip files from archive and you will find following folders and files.</p>
+      <ul>
+        <li><strong>/css</strong> - folder with css files</li>
+        <li><strong>/fonts</strong> - folder with icon fonts</li>
+        <li><strong>/img</strong> - folder with all images</li>
+        <li><strong>/js</strong> - folder with jQuery script files</li>
+        <li><strong>contact.php</strong> - file for contact form</li>
+      </ul>
+      <p class="note">Note: Contact form will not work offline. You must upload your website on a server with support of PHP and PHP mail() function.</p>
+
+
+      <h1 class="section-title" id="navigation">Basic Navigation</h1>
+      <p>Basic navigation structure consist of the following code.</p>
+      <pre><code class="language-markup">
+      &lt;header class="nav">
+
+        &lt;div class="nav__holder nav--sticky">
+          &lt;div class="container relative">
+            
+            &lt;div class="top-bar">
+              ...
+            &lt;/div>
+
+            &lt;div class="flex-parent">
+
+              <!-- Logo -->
+              &lt;a href="index.html" class="logo">
+                &lt;img class="logo__img" src="img/logo_light.png" alt="logo">
+              &lt;/a>
+
+              &lt;nav class="flex-child nav__wrap d-none d-lg-block">
+                &lt;ul class="nav__menu">
+                  
+                  &lt;li class="nav__dropdown">
+                    ...          
+                  &lt;/li>
+
+                &lt;/ul>
+              &lt;/nav> &lt;!-- end nav__wrap -->                          
+
+            &lt;/div>
+          &lt;/div>
+        &lt;/div>
+      &lt;/header>
+
+      </code></pre>
+
+
+      <!-- Colors -->
+      <h1 class="section-title" id="colors">Changing Colors</h1>
+      <p>You can change the main color of theme with 2 different options</p>
+      <h6>Option 1</h6>
+      <p>Manually change all color values in <strong>color.css</strong> Open text editor and change the colors values.</p>
+      <br>
+      <h6>Option 2</h6>
+      <p>Using Sass. The process described here - <a href="https://deothemes.com/blog/article/how-to-use-sass-in-our-templates.html/" target="_blank">link</a></p>
+
+
+      <h1 class="section-title" id="credits">Credits</h1>
+      <ul>
+        <li><a href="http://jquery.com/">jQuery</a></li>
+        <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+        <li><a href="https://github.com/gdsmith/jquery.easing">Easing</a></li>
+        <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a></li>
+        <li><a href="http://owlgraphic.com/owlcarousel/">Owl carousel</a></li>
+        <li><a href="https://flickity.metafizzy.co/">Flickity Slider</a></li>
+        <li><a href="https://modernizr.com/">Modernizr</a></li>
+      </ul>
+
+
+      <h1 class="section-title" id="support">Support</h1>
+      <p>If you have any question feel free to visit our <a href="http://deothemes.com/support/forums" target="_blank">Support Forum</a></p>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="copyright">
+          <span>
+            &copy; 2017 Namira | Made by <a href="http://deothemes.com">DeoThemes</a>
+          </span>
+        </div>
+      </footer> <!-- end footer -->
+
+
+    </div> <!-- end content wrapper -->
+  </div> <!-- end main wrapper -->
+
+  <!-- jQuery Scripts -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>
